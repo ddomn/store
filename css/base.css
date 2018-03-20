@@ -1,0 +1,32 @@
+@charset "utf-8";
+div{border: none;}
+ul, ol{list-style: none;}
+.pos-a{ position:absolute;}
+.pos-r{ position:relative;}
+
+.r{right:0}
+.l{left:0}
+.t{top:0}
+.d{down:0}
+
+.t-c{ text-align: center}
+
+.ds-b{display:block;}
+.ds-n{display: none;}
+
+img{ border:none; vertical-align: middle;}
+
+.f-l{float: left;}
+.f-r{float: right;}
+.clearfix:after{
+    content: '';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clear { clear: both;}
+
+
+.col-r{color:red;}
